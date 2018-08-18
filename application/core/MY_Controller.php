@@ -19,7 +19,7 @@ Class MY_Controller extends CI_Controller
                     
                     //xu ly cac du lieu khi truy cap vao trang admin
                     $this->load->helper('admin');
-                    $this->_check_login();
+                    // $this->_check_login();
                     break;
                 }
             default:
